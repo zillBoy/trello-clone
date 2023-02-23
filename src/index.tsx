@@ -1,5 +1,8 @@
+// React Dependencies
 import React from "react";
 import ReactDOM from "react-dom/client";
+
+// Internal Dependencies
 import "./index.css";
 import { App } from "./App";
 
