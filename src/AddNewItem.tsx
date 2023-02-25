@@ -3,7 +3,6 @@ import { useState } from "react";
 
 // Internal Dependencies
 import { NewItemForm } from "./NewItemForm";
-
 import { AddNewItemButton } from "./styles";
 
 type AddNewItemProps = {

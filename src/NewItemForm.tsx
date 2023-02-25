@@ -3,7 +3,6 @@ import { useState } from "react";
 
 // Internal Dependencies
 import { useFocus } from "./utils/useFocus";
-
 import { NewItemFormContainer, NewItemInput, NewItemButton } from "./styles";
 
 type NewItemFormProps = {

@@ -50,7 +50,7 @@ export const AddNewItemButton = styled.button<AddItemButtonProps>`
   max-width: 300px;
   padding: 10px 12px;
   text-align: left;
-  transition: background 85ms ease-in;
+  transition: background-color 85ms ease-in;
   width: 100%;
 
   &:hover {

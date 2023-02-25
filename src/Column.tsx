@@ -1,15 +1,15 @@
 // Internal Dependencies
 import { AddNewItem } from "./AddNewItem";
 import { Card } from "./Card";
-import { ColumnContainer, ColumnTitle } from "./styles";
 
 import { addTask } from "./state/actions";
 import { useAppState } from "./state/AppStateContext";
+import { ColumnContainer, ColumnTitle } from "./styles";
 
-type ColumnProps = React.PropsWithChildren<{
+type ColumnProps = {
   text: string;
   id: string;
-}>;
+};
 
 export const Column = ({ text, id }: ColumnProps) => {
   const { getTasksByListId, dispatch } = useAppState();
